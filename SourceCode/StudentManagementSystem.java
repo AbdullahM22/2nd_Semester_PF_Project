@@ -22,62 +22,62 @@ public class StudentManagementSystem
             //Here all the Student data is loaded and stored in program.
 
             String [] stud_array = new String[100];
-            loadDataFromFile(stud_array, "D:\\Abdullah University\\PF\\LAB\\Program\\FinalSemesterProject\\StudentFile\\student.txt");
+            loadDataFromFile(stud_array, "StudentFile\\student.txt");
 
             //Here all the Student passwords are stored in program.
 
             String [] pass_array = new String [50];
-            loadDataFromFile(pass_array,"D:\\Abdullah University\\PF\\LAB\\Program\\FinalSemesterProject\\StudentFile\\Passwords.txt");
+            loadDataFromFile(pass_array,"StudentFile\\Passwords.txt");
 
             //Here all the Email of the admins are stored in program.
 
             String[] email_array = new String[6];
-            loadDataFromFile(email_array,"D:\\Abdullah University\\PF\\LAB\\Program\\FinalSemesterProject\\StudentFile\\email.txt");
+            loadDataFromFile(email_array,"StudentFile\\email.txt");
 
             //Here all the Emails along with the password of admins is stored in program.
 
             String[][] em_pa_array = new String[5][2];
-            loadDataFromFile(em_pa_array, "D:\\Abdullah University\\PF\\LAB\\Program\\FinalSemesterProject\\StudentFile\\emailPasswords.txt");
+            loadDataFromFile(em_pa_array, "StudentFile\\emailPasswords.txt");
 
             //Here all the roll number are stored in program.
 
             String[] roll_array = new String[20];
-            loadDataFromFile(roll_array, "D:\\Abdullah University\\PF\\LAB\\Program\\FinalSemesterProject\\StudentFile\\rollNumber.txt");
+            loadDataFromFile(roll_array, "StudentFile\\rollNumber.txt");
 
             //Here all the name of the students are stored in the program.
 
             String[] name_array = new String[20];
-            loadDataFromFile(name_array, "D:\\Abdullah University\\PF\\LAB\\Program\\FinalSemesterProject\\StudentFile\\name.txt");
+            loadDataFromFile(name_array, "StudentFile\\name.txt");
 
             //Here all the roll number and password are stored in program.
 
             String[][] ro_pa_array = new String[20][2];
-            loadDataFromFile(ro_pa_array, "D:\\Abdullah University\\PF\\LAB\\Program\\FinalSemesterProject\\StudentFile\\rollPassword.txt");
+            loadDataFromFile(ro_pa_array, "StudentFile\\rollPassword.txt");
 
             //Here all the fees status of the student are stored in program.
 
             String[] fees_array = new String[20];
-            loadDataFromFile(fees_array, "D:\\Abdullah University\\PF\\LAB\\Program\\FinalSemesterProject\\StudentFile\\fees.txt");
+            loadDataFromFile(fees_array, "StudentFile\\fees.txt");
 
             //Here all the attendance status of the student are stored in program.
 
             String[] att_array = new String[80];
-            loadDataFromFile(att_array, "D:\\Abdullah University\\PF\\LAB\\Program\\FinalSemesterProject\\StudentFile\\attendance.txt");
+            loadDataFromFile(att_array, "StudentFile\\attendance.txt");
 
             //Here all the marks of students are stored in program.
 
             String[] marks_array = new String[80];
-            loadDataFromFile(marks_array, "D:\\Abdullah University\\PF\\LAB\\Program\\FinalSemesterProject\\StudentFile\\marks.txt");
+            loadDataFromFile(marks_array, "StudentFile\\marks.txt");
 
             //Here all the teacher information are stored in program.
 
             String[] tea_array = new String[5];
-            loadDataFromFile(tea_array, "D:\\Abdullah University\\PF\\LAB\\Program\\FinalSemesterProject\\StudentFile\\teacher.txt");
+            loadDataFromFile(tea_array, "StudentFile\\teacher.txt");
 
             //Here all the challan statuses of students are stored in program.
 
             String[] ch_array = new String[20];
-            loadDataFromFile(ch_array, "D:\\Abdullah University\\PF\\LAB\\Program\\FinalSemesterProject\\StudentFile\\challan.txt");
+            loadDataFromFile(ch_array, "StudentFile\\challan.txt");
 
             //Start of the Student portal Management System.
 
@@ -307,7 +307,8 @@ public class StudentManagementSystem
             }
         }
 //        String temp = "";
-//        for (int i = 0; i<b.length; i++){
+//        for (int i = 0; i<b.length; i++)
+//     {
 //            if (b[i] != null && b[i].equals("Paid") || b[i].equals("Unpaid")){
 //                temp = b[i];
 //
@@ -322,7 +323,7 @@ public class StudentManagementSystem
 
     public static void saveStudentToFile(String[] roll_array, String[] name_array,String[] fees_array, String[] att_array, String[] ch_array, String [] pass_array, String [] marks_array)
     {
-        try (FileWriter file = new FileWriter("D:\\Abdullah University\\PF\\LAB\\Program\\FinalSemesterProject\\StudentFile\\student.txt");
+        try (FileWriter file = new FileWriter("StudentFile\\student.txt");
              PrintWriter writer = new PrintWriter(file))
         {
             for (int i = 0; i < 20; i++)
@@ -330,19 +331,19 @@ public class StudentManagementSystem
                 if (roll_array[i] != null)
                 {
                     writer.println("The roll number of student is: " + roll_array[i]);
-                    saveDataToFile(roll_array,"D:\\Abdullah University\\PF\\LAB\\Program\\FinalSemesterProject\\StudentFile\\rollNumber.txt" );
+                    saveDataToFile(roll_array,"StudentFile\\rollNumber.txt" );
                     writer.println("The password of student is: " + pass_array[i]);
-                    saveDataToFile(pass_array,"D:\\Abdullah University\\PF\\LAB\\Program\\FinalSemesterProject\\StudentFile\\Passwords.txt");
+                    saveDataToFile(pass_array,"StudentFile\\Passwords.txt");
                     writer.println("The name of student is: " + name_array[i]);
-                    saveDataToFile(name_array,  "D:\\Abdullah University\\PF\\LAB\\Program\\FinalSemesterProject\\StudentFile\\name.txt");
+                    saveDataToFile(name_array,  "StudentFile\\name.txt");
                     writer.println("The fees status of student is: " + fees_array[i]);
-                    saveDataToFile(fees_array, "D:\\Abdullah University\\PF\\LAB\\Program\\FinalSemesterProject\\StudentFile\\fees.txt");
+                    saveDataToFile(fees_array, "StudentFile\\fees.txt");
                     writer.println("The attendance of student is: "+att_array[i]);
-                    saveDataToFile(att_array, "D:\\Abdullah University\\PF\\LAB\\Program\\FinalSemesterProject\\StudentFile\\attendance.txt");
+                    saveDataToFile(att_array, "StudentFile\\attendance.txt");
                     writer.println("The challan status of student is : " + ch_array[i]);
-                    saveDataToFile(ch_array, "D:\\Abdullah University\\PF\\LAB\\Program\\FinalSemesterProject\\StudentFile\\challan.txt");
+                    saveDataToFile(ch_array, "StudentFile\\challan.txt");
                     writer.println("The marks of student is: " + marks_array[i]);
-                    saveDataToFile(marks_array,"D:\\Abdullah University\\PF\\LAB\\Program\\FinalSemesterProject\\StudentFile\\marks.txt");
+                    saveDataToFile(marks_array,"StudentFile\\marks.txt");
                 }
             }
         }
