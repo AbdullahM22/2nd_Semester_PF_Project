@@ -1,0 +1,70 @@
+The roll number of student is: FA22-BCT-002
+The password of student is: 122345a
+The name of student is: Abdullah
+The fees status of student is: Paid
+The attendance of student is: Information Security = 85%., English Literature = 68%., Mathematics = 100%., Programming Fundamentals = 100%., Pakistan Studies = 90%.
+The challan status of student is : Pending Challan in your status.
+The marks of student is: Information security = 62,English Literature = 56,Mathematics = 54,Programming Fundamentals = 69,English Literature = 90,Pakistan Studies = 50
+The roll number of student is: FA22-BCT-003
+The password of student is: qw12345a
+The name of student is: Haseeb Shaikh
+The fees status of student is: Unpaid
+The attendance of student is: Information Security = 85%., English Literature = 68%., Mathematics = 100%., Programming Fundamentals = 100%., Pakistan Studies = 90%.
+The challan status of student is : No Challan in your status.
+The marks of student is: Information security = 61,English Literature = 90,Mathematics = 100,Programming Fundamentals = 89,English Literature = 78,Pakistan Studies = 50
+The roll number of student is: FA22-BCT-004
+The password of student is: A123445
+The name of student is: Abdullah Maqbool
+The fees status of student is: Paid
+The attendance of student is: Information Security = 85%., English Literature = 68%., Mathematics = 100%., Programming Fundamentals = 100%., Pakistan Studies = 90%.
+The challan status of student is : Pending Challan in your status.
+The marks of student is: Information security = 69,English Literature = 100,Mathematics = 90,Programming Fundamentals = 70,English Literature = 90,Pakistan Studies = 500
+The roll number of student is: FA22-BCT-005
+The password of student is: asf345a
+The name of student is: Inam ul Haq
+The fees status of student is: Unpaid
+The attendance of student is: Information Security = 85%., English Literature = 68%., Mathematics = 100%., Programming Fundamentals = 100%., Pakistan Studies = 90%.
+The challan status of student is : No Challan in your status.
+The marks of student is: Information security = 70,English Literature = 95,Mathematics = 25,Programming Fundamentals = 56,English Literature = 67,Pakistan Studies = 00
+The roll number of student is: FA22-BCT-006
+The password of student is: 6782345a
+The name of student is: Zubair Ahmad
+The fees status of student is: Paid
+The attendance of student is:  Information Security = 85%., English Literature = 68%., Mathematics = 100%., Programming Fundamentals = 100%., Pakistan Studies = 90%.
+The challan status of student is : Pending Challan in your status.
+The marks of student is: Information security = 78,English Literature = 45,Mathematics = 53,Programming Fundamentals = 70,English Literature = 90,Pakistan Studies = 48
+The roll number of student is: FA22-BCT-007
+The password of student is: A123yhj
+The name of student is: Hafiz Ehsaan
+The fees status of student is: Paid
+The attendance of student is:  Information Security = 85%., English Literature = 68%., Mathematics = 100%., Programming Fundamentals = 100%., Pakistan Studies = 90%.
+The challan status of student is : No Challan in your status.
+The marks of student is: Information security = 56,English Literature = 68,Mathematics = 78,Programming Fundamentals = 67,English Literature = 50,Pakistan Studies = 30
+The roll number of student is: FA22-BCT-008
+The password of student is: 12345
+The name of student is: Kaleem-Ullah
+The fees status of student is: Paid
+The attendance of student is:  Information Security = 85%., English Literature = 68%., Mathematics = 100%., Programming Fundamentals = 100%., Pakistan Studies = 90%.
+The challan status of student is : No Challan in your status.
+The marks of student is: Information security = 100,English Literature = 68,Mathematics = 54,Programming Fundamentals = 89,English Literature = 100,Pakistan Studies = 50
+The roll number of student is: FA22-BCT-009
+The password of student is: cui12345a
+The name of student is: Ali Amin
+The fees status of student is: Unpaid
+The attendance of student is:  Information Security = 85%., English Literature = 68%., Mathematics = 100%., Programming Fundamentals = 100%., Pakistan Studies = 90%.
+The challan status of student is : No Challan in your status.
+The marks of student is: Information security = 78,English Literature = 89,Mathematics = 100,Programming Fundamentals = 70,English Literature = 56,Pakistan Studies = 80
+The roll number of student is: FA22-BCT-010
+The password of student is: A12345mm
+The name of student is: Dawood Faisal
+The fees status of student is: Unpaid
+The attendance of student is: Information Security = 85%. English Literature = 68%. Mathematics = 100%. Programming Fundamentals = 100%. Pakistan Studies = 90%
+The challan status of student is : No Challan in your status.
+The marks of student is: Information security = 90,English Literature = 68,Mathematics = 54,Programming Fundamentals = 65,English Literature = 90,Pakistan Studies = 50
+The roll number of student is: FA22-BCT-013
+The password of student is: 11223344
+The name of student is: Maqbool Ahmad
+The fees status of student is: Paid
+The attendance of student is: Full Attendance
+The challan status of student is : NO Challan
+The marks of student is: Full

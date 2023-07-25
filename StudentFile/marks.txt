@@ -1,0 +1,10 @@
+Information security = 62,English Literature = 56,Mathematics = 54,Programming Fundamentals = 69,English Literature = 90,Pakistan Studies = 50
+Information security = 61,English Literature = 90,Mathematics = 100,Programming Fundamentals = 89,English Literature = 78,Pakistan Studies = 50
+Information security = 69,English Literature = 100,Mathematics = 90,Programming Fundamentals = 70,English Literature = 90,Pakistan Studies = 500
+Information security = 70,English Literature = 95,Mathematics = 25,Programming Fundamentals = 56,English Literature = 67,Pakistan Studies = 00
+Information security = 78,English Literature = 45,Mathematics = 53,Programming Fundamentals = 70,English Literature = 90,Pakistan Studies = 48
+Information security = 56,English Literature = 68,Mathematics = 78,Programming Fundamentals = 67,English Literature = 50,Pakistan Studies = 30
+Information security = 100,English Literature = 68,Mathematics = 54,Programming Fundamentals = 89,English Literature = 100,Pakistan Studies = 50
+Information security = 78,English Literature = 89,Mathematics = 100,Programming Fundamentals = 70,English Literature = 56,Pakistan Studies = 80
+Information security = 90,English Literature = 68,Mathematics = 54,Programming Fundamentals = 65,English Literature = 90,Pakistan Studies = 50
+Full
