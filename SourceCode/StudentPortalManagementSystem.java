@@ -10,7 +10,7 @@
 import java.io.*;
 import java.util.InputMismatchException;
 import java.util.Scanner;
-public class StudentManagementSystem
+public class StudentPortalManagementSystem
 {
     public static void main(String[] args)
     {
