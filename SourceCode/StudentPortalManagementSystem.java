@@ -293,7 +293,8 @@ public class StudentPortalManagementSystem
             }
         }
 
-
+    //This function will be used to check all the unpaid student in the system.
+  
     public static void PUlist(String [] a, String [] b) {
         System.out.println("\nRoll No.\tFees");
         for (int i = 0; i < a.length; i++)
@@ -306,17 +307,6 @@ public class StudentPortalManagementSystem
                 }
             }
         }
-//        String temp = "";
-//        for (int i = 0; i<b.length; i++)
-//     {
-//            if (b[i] != null && b[i].equals("Paid") || b[i].equals("Unpaid")){
-//                temp = b[i];
-//
-//            }
-//            System.out.println(temp);
-//
-//        }
-
     }
 
     //This function will be used to save all the data individually and collectively into respective files.
