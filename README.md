@@ -25,7 +25,7 @@ This is a Student Portal Management System implemented in Java. It provides feat
 
 3. The application will prompt you to choose between logging in as a student or admin.
    
-4.  For student login credentials are stored in `rollPassword.txt` and for administrator login credentials are stored in `emailPasswords.txt`.
+4. For student login credentials are stored in `rollPassword.txt` and for administrator login credentials are stored in `emailPasswords.txt`.
 
 5. If you choose to log in as a student, enter your registration number and password when prompted. You can then access various features available to students.
 
